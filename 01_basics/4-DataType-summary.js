@@ -23,3 +23,24 @@ const a = function abc()
 a();
 
 console.log(typeof a);
+
+
+// OBJECT ARE REFERNCED AND NOT PASSED BY VALUE 
+// let me give you an example:
+let x = "bamboo";
+let y = "bamboo";
+// these two values are copies of the string "bamboo" they are stored in 2 different memory places
+
+console.log(x==y);
+console.log(x===y);
+
+let v = {"name":"acb"};  
+let z = {"name":"acb"};
+// BY THE LOGIC WE SAW ABOVE v and z must be the same?
+
+console.log(v==z); 
+console.log(v===z); 
+
+//BUT BOTH COMPARISONS RETURN FALSE AS EVEN IF THEY HAVE THE SAME VALUES STORED THEY ARE TWO INDEPENDANT OBJECTS
+
+// https://javascript.info/object-copy READ THIS TO BE LESS CONFUSED
