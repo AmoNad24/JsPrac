@@ -22,7 +22,7 @@ const a = function abc()
 }
 a();
 
-console.log(typeof a);
+console.log(typeof a);//function
 
 
 // OBJECT ARE REFERNCED AND NOT PASSED BY VALUE 
