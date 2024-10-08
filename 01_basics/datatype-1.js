@@ -38,7 +38,7 @@ console.log(val4)//output NaN = Not a Number
 //Now lets convert some values to boolean
 
 let a = "";
-let val5 = Boolean(a);
-console.log(val5);
+let val5 = Boolean(a); 
+console.log(val5);//false
 // "ABC"=>true
 //1234=>true
